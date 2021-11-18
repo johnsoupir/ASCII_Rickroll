@@ -1,9 +1,9 @@
 # ASCII_Rickroll
 ## An animated ASCII rickroll written in BASH
 
-ASCII Rickroll written in BASH. This file contains the first ~15 seconds worth of frames from "Never gonna give you up". They were converted to ASCII images and appended to the end of this script. The script steps through the file printing one frame worth of lines at a time.
-Remember, since these lines are an offset you can only have 25 lines here unless you update the step offset. Otherwise it all goes wrong.
-This is the small version for 130x36 terminal resolution
+This is an ASCII Rickroll written in BASH. The shell script contains the first ~15 seconds worth of frames from "Never gonna give you up". They were converted to ASCII images and appended to the end of the script. The script steps through the file printing one frame worth of lines at a time.
+The first 25 lines of the file are used for code and comments. This means every frame must have a 25 line offset.
+This is the small version for 130x36 terminal resolution.
 
                
               'cxxxxxxxxxxxxxxxxxkkkkkxxddddddxxxxxxdddooddxxxxxdddooooddddoddxxxxxxxxxdddooddc               
