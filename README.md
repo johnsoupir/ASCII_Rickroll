@@ -87,7 +87,7 @@ Change directory
 cd ASCII_Rickroll/C\ Rickroll
 ```
 
-Compile the C program
+Compile the C program - (You will need GCC and make installed)
 ```sh
 make
 ```
