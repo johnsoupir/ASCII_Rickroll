@@ -58,7 +58,7 @@ git clone https://github.com/johnsoupir/ASCII_Rickroll.git
 
 Change directory
 ```sh
-cd ASCII_Rickroll
+cd ASCII_Rickroll/BASH_Rickroll
 ```
 
 Execute the Rickroll!
@@ -84,7 +84,7 @@ git clone https://github.com/johnsoupir/ASCII_Rickroll.git
 
 Change directory
 ```sh
-cd ASCII_Rickroll
+cd ASCII_Rickroll/C\ Rickroll
 ```
 
 Compile the C program
