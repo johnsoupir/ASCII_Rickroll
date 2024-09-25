@@ -1,4 +1,4 @@
-# ASCII_Rickroll
+# ASCII_Rickroll - BASH & C
           'cxxxxxxxxxxxxxxxxxkkkkkxxddddddxxxxxxdddooddxxxxxdddooooddddoddxxxxxxxxxdddooddc               
            cxxxxxxxxxdxxxxxxkkkkkkkxddddxxkkkkkxxxdddxkkkkkkxxdooooodxxxdxxxxxxxxxxddoooddc               
            cxxxxxxxxxxxxkxxkxxxxxxddxxxxxkxxddddoooooooxxxxxxxxdooooodxxkkkxxxxxxxxxddodddc               
@@ -41,6 +41,7 @@ This is a fully self-contained ASCII Rickroll! It makes a great error message, o
 
 It's available in C, and BASH. 
 
+
 ## BASH!
 
 The shell script contains the first ~25 seconds worth of frames from "Never Gonna Give You Up". They were converted to ASCII images and appended to the end of the script. The script steps through the file printing one frame worth of lines at a time. The first 25 lines of the file are used for code and comments. This means every frame must have a 25 line offset. This is the small version for 130x36 terminal resolution.
@@ -58,7 +59,7 @@ git clone https://github.com/johnsoupir/ASCII_Rickroll.git
 
 Change directory
 ```sh
-cd ASCII_Rickroll
+cd ASCII_Rickroll/BASH_Rickroll
 ```
 
 Execute the Rickroll!
@@ -84,10 +85,10 @@ git clone https://github.com/johnsoupir/ASCII_Rickroll.git
 
 Change directory
 ```sh
-cd ASCII_Rickroll
+cd ASCII_Rickroll/C\ Rickroll
 ```
 
-Compile the C program
+Compile the C program - (You will need GCC and make installed)
 ```sh
 make
 ```
@@ -116,8 +117,21 @@ int main()
 }
 ```
 
+
 ### Files
 - `main.c`: Example program that uses the library.
 - `ASCII_Rickroll.c`: Contains the implementation of the roll and delay functions.
 - `ASCII_Rickroll.h`: Contains the declaration of functions and the frames array.
 - `Makefile`: The makefile to compile the C program.
+
+## Roadmap
+I'm working on:
+
+- [ ] Python version
+- [ ] Auto-scaling to terminal size
+- [ ] Selectable length
+- [ ] Selectable speed
+- [ ] Audio support in Python
+- [ ] Audio support in C
+- [ ] (Better) Audio support in BASH
+- [ ] Full C version that takes command line args
