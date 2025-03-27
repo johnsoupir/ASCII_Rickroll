@@ -1,4 +1,4 @@
-frames = """lxxxkkkOkkOOkxxxxOOkOOOOOko:;;;,'....  ...............,'..'',,,,,,,oddxxxxxxdoo:               
+FRAMES = """lxxxkkkOkkOOkxxxxOOkOOOOOko:;;;,'....  ...............,'..'',,,,,,,oddxxxxxxdoo:               
 lxxkkkkOOOOOxxxxkOOkOOkkkkol:;,............................''''',,:ddddddxxxdoo:               
 lxxkOkkOkOOkxxxxkkkkkkkkkxxo:,'............  ........ .....'...'',cddddddxxxdoo:               
 lkkOOOOOOOOkxxxxxxxxxxxxdddo:;,.............   ...........'''...'':ooooooooddoo:               
