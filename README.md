@@ -1,4 +1,4 @@
-# ASCII_Rickroll - BASH & C
+# ASCII_Rickroll - BASH, Python, & C
           'cxxxxxxxxxxxxxxxxxkkkkkxxddddddxxxxxxdddooddxxxxxdddooooddddoddxxxxxxxxxdddooddc               
            cxxxxxxxxxdxxxxxxkkkkkkkxddddxxkkkkkxxxdddxkkkkkkxxdooooodxxxdxxxxxxxxxxddoooddc               
            cxxxxxxxxxxxxkxxkxxxxxxddxxxxxkxxddddoooooooxxxxxxxxdooooodxxkkkxxxxxxxxxddodddc               
@@ -39,7 +39,7 @@
 
 This is a fully self-contained ASCII Rickroll! It makes a great error message, or harmless pentesting payload. 
 
-It's available in C, and BASH. 
+It's available in C, Python, and BASH. 
 
 
 ## BASH!
@@ -127,7 +127,7 @@ int main()
 ## Roadmap
 I'm working on:
 
-- [ ] Python version
+- [x] Python version
 - [ ] Auto-scaling to terminal size
 - [ ] Selectable length
 - [ ] Selectable speed

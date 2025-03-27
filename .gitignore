@@ -1,0 +1,11 @@
+# General
+.swp
+
+# C
+*.o
+rickroll
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
